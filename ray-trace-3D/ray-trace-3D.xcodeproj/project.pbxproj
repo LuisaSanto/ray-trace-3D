@@ -13,6 +13,12 @@
 		3EBAD6632239177E003A0E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBAD6612239177E003A0E3A /* Main.storyboard */; };
 		3EBAD66C223917C4003A0E3A /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAD66B223917C4003A0E3A /* Ray.swift */; };
 		3EBAD66E2239199C003A0E3A /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAD66D2239199C003A0E3A /* Vector.swift */; };
+		3EBAD67022391E0D003A0E3A /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAD66F22391E0D003A0E3A /* Sphere.swift */; };
+		3EFB4487223A59CE00C02440 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB4486223A59CE00C02440 /* Material.swift */; };
+		3EFB4489223A5B5B00C02440 /* Traceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB4488223A5B5B00C02440 /* Traceable.swift */; };
+		3EFB448B223A5ECD00C02440 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB448A223A5ECD00C02440 /* Polygon.swift */; };
+		3EFB448D223A632000C02440 /* RayTracer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB448C223A632000C02440 /* RayTracer.swift */; };
+		3EFB448F223A63D500C02440 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB448E223A63D500C02440 /* Scene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		3EBAD6652239177E003A0E3A /* ray_trace_3D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ray_trace_3D.entitlements; sourceTree = "<group>"; };
 		3EBAD66B223917C4003A0E3A /* Ray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray.swift; sourceTree = "<group>"; };
 		3EBAD66D2239199C003A0E3A /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		3EBAD66F22391E0D003A0E3A /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		3EFB4486223A59CE00C02440 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		3EFB4488223A5B5B00C02440 /* Traceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traceable.swift; sourceTree = "<group>"; };
+		3EFB448A223A5ECD00C02440 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		3EFB448C223A632000C02440 /* RayTracer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayTracer.swift; sourceTree = "<group>"; };
+		3EFB448E223A63D500C02440 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,12 @@
 				3EBAD6652239177E003A0E3A /* ray_trace_3D.entitlements */,
 				3EBAD66B223917C4003A0E3A /* Ray.swift */,
 				3EBAD66D2239199C003A0E3A /* Vector.swift */,
+				3EBAD66F22391E0D003A0E3A /* Sphere.swift */,
+				3EFB4486223A59CE00C02440 /* Material.swift */,
+				3EFB4488223A5B5B00C02440 /* Traceable.swift */,
+				3EFB448A223A5ECD00C02440 /* Polygon.swift */,
+				3EFB448C223A632000C02440 /* RayTracer.swift */,
+				3EFB448E223A63D500C02440 /* Scene.swift */,
 			);
 			path = "ray-trace-3D";
 			sourceTree = "<group>";
@@ -139,9 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFB448D223A632000C02440 /* RayTracer.swift in Sources */,
+				3EFB448B223A5ECD00C02440 /* Polygon.swift in Sources */,
+				3EFB448F223A63D500C02440 /* Scene.swift in Sources */,
+				3EFB4487223A59CE00C02440 /* Material.swift in Sources */,
+				3EBAD67022391E0D003A0E3A /* Sphere.swift in Sources */,
 				3EBAD65E2239177A003A0E3A /* ViewController.swift in Sources */,
 				3EBAD65C2239177A003A0E3A /* AppDelegate.swift in Sources */,
 				3EBAD66E2239199C003A0E3A /* Vector.swift in Sources */,
+				3EFB4489223A5B5B00C02440 /* Traceable.swift in Sources */,
 				3EBAD66C223917C4003A0E3A /* Ray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
